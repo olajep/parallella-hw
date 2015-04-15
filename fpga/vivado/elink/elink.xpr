@@ -143,20 +143,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../src/common/hdl/mux3.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../src/common/hdl/mux2.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PPRDIR/../../src/memory/hdl/memory_sp.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -165,20 +151,6 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../../src/axi/hdl/esaxi_cfg.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../src/axi/hdl/emaxi_logic.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../src/axi/hdl/esaxi_logic.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -231,7 +203,7 @@
       </Config>
     </FileSet>
     <FileSet Name="memory_dp_48x4096" Type="BlockSrcs" RelSrcDir="$PSRCDIR/memory_dp_48x4096">
-      <File Path="$PSRCDIR/sources_1/ip/memory_dp_48x4096/memory_dp_48x4096.xci">
+      <File Path="$PPRDIR/../../ip/xilinx/memory_dp_48x4096/memory_dp_48x4096.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

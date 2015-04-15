@@ -1,3 +1,5 @@
+`include "../../memory/hdl/fifo_async_emesh.v"
+
 module erx (/*AUTOARG*/
    // Outputs
    ecfg_rx_debug, ecfg_rx_datain, mi_dout, emwr_access, emwr_write,

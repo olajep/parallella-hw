@@ -1,3 +1,5 @@
+`include "../../elink/hdl/elink_regmap.v"
+
 module esaxi (/*autoarg*/
    // Outputs
    emwr_access, emwr_write, emwr_datamode, emwr_ctrlmode,

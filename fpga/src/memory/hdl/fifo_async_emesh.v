@@ -4,6 +4,13 @@
  
  */
 
+`ifndef __fifo_async_emesh_v
+`define __fifo_async_emesh_v
+
+`ifdef TARGET_XILINX
+`include "../../stubs/hdl/fifo_async_104x32.v"
+`endif
+
 module fifo_async_emesh (/*AUTOARG*/
    // Outputs
    emesh_access_out, emesh_write_out, emesh_datamode_out,
@@ -123,3 +130,5 @@ endmodule // fifo_sync
  along with this program (see the file COPYING).  If not, see
  <http://www.gnu.org/licenses/>.
  */
+
+`endif // __fifo_async_emesh_v

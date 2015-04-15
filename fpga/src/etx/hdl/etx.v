@@ -1,3 +1,5 @@
+`include "../../memory/hdl/fifo_async_emesh.v"
+
 module etx(/*AUTOARG*/
    // Outputs
    ecfg_tx_datain, ecfg_tx_debug, emrq_progfull, emwr_progfull,

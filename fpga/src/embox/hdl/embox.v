@@ -21,6 +21,8 @@
  ############################################################################
  */
 
+`include "../../elink/hdl/elink_regmap.v"
+
 module embox (/*AUTOARG*/
    // Outputs
    mi_dout, embox_full, embox_not_empty,

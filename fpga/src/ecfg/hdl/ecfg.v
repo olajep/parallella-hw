@@ -104,6 +104,8 @@
   ########################################################################
  */
 
+`include "../../elink/hdl/elink_regmap.v"
+
 module ecfg (/*AUTOARG*/
    // Outputs
    mi_dout, ecfg_reset, ecfg_resetb, ecfg_tx_enable,
